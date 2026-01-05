@@ -1,0 +1,10 @@
+name: "weather_dbt"
+version: "1.0"
+profile: "weather_dbt"
+
+models:
+  weather_dbt:
+    staging:
+      materialized: view
+    marts:
+      materialized: table
